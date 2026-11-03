@@ -1,6 +1,25 @@
-background{
-    color: rgb(246, 205, 108);
+h1 {
+  text-align: center;
+  font-size: 3rem;
 }
-.navigation-links{
-    text-align: center;
+body {
+  background-color: #f8e8a6;
+}
+p {
+  text-align: center;
+  font-size: 1rem;
+}
+.navigation-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.navigation-links a {
+  color: green;
+}
+.croissant-image {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
 }
