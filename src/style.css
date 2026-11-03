@@ -16,10 +16,12 @@ p {
   margin-top: 20px;
 }
 .navigation-links a {
-  color: green;
+  color: blueviolet;
 }
-.croissant-image {
-  width: 100%;
-  height: auto;
-  border-radius: 20px;
+.croissant-photo {
+  max-width: 100%;
+  display: flex;
+  margin: 20px auto;
+  border: 2px solid blueviolet;
+  border-radius: 15px;
 }
